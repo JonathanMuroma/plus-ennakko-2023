@@ -2,7 +2,7 @@
 
 Eduskuntavaalit lähestyvät ja ennakkotehtävä liittyy vaaleihin. Toivottavasti viihdyt tehtävän parissa. Valmis tehtävä tulee palauttaa viimeistään maanantaina 27.2.2023 klo 12.
 
-Tässä repossa on runko koneelle, jolla käyttäjä voisi rakentaa valitsemansa hallituspohjan täppäämällä puolueita. Runko on yksinkertainen React-sovellus joka pyörii Vite-työkalun päällä.
+Tässä repossa on runko koneelle, jolla käyttäjä voi rakentaa kuvitteellisen hallituspohjan täppäämällä puolueita. Runko on yksinkertainen React-sovellus joka pyörii Vite-työkalun päällä.
 
 Tehtävänä on lisätä interaktiiviset elementit koneeseen. Voit koodata toteutuksen haluamallasi tavalla ja valitsemillasi työkaluilla.
 
