@@ -1,0 +1,50 @@
+#root {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.header {
+  font-size: 1.25rem;
+  line-height: 1.75;
+  padding: 1rem;
+  margin: 0;
+}
+
+.subhead {
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+.buttons {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 1rem 0;
+}
+
+button {
+  font: inherit;
+  min-width: 100px;
+  border-radius: 9999px;
+  border: none;
+  padding: 0.5rem;
+}
+
+.bar {
+  background-color: white;
+  margin: 0 auto;
+  width: 95%;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.description {
+  padding: 1rem;
+  margin: 0;
+}

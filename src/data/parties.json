@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Kok.",
+    "longName": "Kokoomus",
+    "seats": 51,
+    "color": "#005cb7"
+  },
+  {
+    "name": "PS",
+    "longName": "Perussuomalaiset",
+    "seats": 40,
+    "color": "#00c2ef",
+    "blackText": true
+  },
+  {
+    "name": "SDP",
+    "longName": "SDP",
+    "seats": 39,
+    "color": "#ff3333",
+    "blackText": true
+  },
+  {
+    "name": "Kesk.",
+    "longName": "Keskusta",
+    "seats": 23,
+    "color": "#209E3A",
+    "blackText": true
+  },
+  {
+    "name": "Vihr.",
+    "longName": "Vihreät",
+    "seats": 17,
+    "color": "#6bd12a",
+    "blackText": true
+  },
+  {
+    "name": "Vas.",
+    "longName": "Vasemmistoliitto",
+    "seats": 17,
+    "color": "#9a003d"
+  },
+  {
+    "name": "RKP",
+    "longName": "RKP",
+    "seats": 9,
+    "color": "#f9b800",
+    "blackText": true
+  },
+  {
+    "name": "KD",
+    "longName": "Kristillisdemokraatit",
+    "seats": 3,
+    "color": "#7946e8"
+  },
+  {
+    "name": "Liik.",
+    "longName": "Liike Nyt",
+    "seats": 1,
+    "color": "#af0079"
+  }
+]
