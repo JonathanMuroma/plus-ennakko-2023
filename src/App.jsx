@@ -36,7 +36,7 @@ function App() {
       <div className="description">
         Olet koonnut vähemmistöhallituksen, jossa on mukana <strong>XX</strong>,{" "}
         <strong>YY</strong> ja <strong>ZZ</strong>.
-        {/* Tähän tekstikuvaus valituista puolueista */}
+        {/* Tähän voi tulla tekstikuvaus valituista puolueista */}
       </div>
     </div>
   );
