@@ -12,23 +12,34 @@ export const Members = (props) => {
 };
 
 export const Parties = (props) => {
+  let count = 0;
   return (
     <div className="description">
-      Olet koonnut{" "}
-      {props.memberAmount > 100
-        ? "Enemmistöhallituksen"
-        : "Vähemmistöhallituksen"}
-      , jossa on mukana
-      {props.chosenParties.map((party, idx) => {
-        let space = ", ";
-        if (idx === props.chosenParties.length - 1) {
-          space = " ja ";
-        } else if (idx === 0) {
-          space = " ";
-        }
-        return <strong key={idx}>{space + party.longName}</strong>;
-      })}
-      .{/* Tähän voi tulla tekstikuvaus valituista puolueista */}
+      {/* Tähän voi tulla tekstikuvaus valituista puolueista */}
+      {props.memberAmount > 0 ? (
+        <>
+          Olet koonnut{" "}
+          {props.memberAmount > 100
+            ? "Enemmistöhallituksen"
+            : "Vähemmistöhallituksen"}
+          , jossa on mukana
+          {props.parties.map((party, idx) => {
+            let space = ", ";
+            if (count === 0) {
+              space = " ";
+            } else if (count === props.chosenParties.length - 1) {
+              space = " ja ";
+            }
+            if (props.chosenParties.some((item) => item === party)) {
+              count++;
+              return <strong key={idx}>{space + party.longName}</strong>;
+            }
+          })}
+        </>
+      ) : (
+        "Hallituksessa ei ole edustajia"
+      )}
+      .
     </div>
   );
 };

@@ -45,7 +45,11 @@ function App() {
       <Reset resetAll={resetAll} />
       <Members memberAmount={memberAmount} />
       <Bar chosenParties={chosenParties} parties={parties} />
-      <Parties chosenParties={chosenParties} memberAmount={memberAmount} />
+      <Parties
+        chosenParties={chosenParties}
+        parties={parties}
+        memberAmount={memberAmount}
+      />
     </div>
   );
 }
